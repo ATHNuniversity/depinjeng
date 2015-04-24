@@ -1,5 +1,5 @@
 require "depinjeng/version"
+require "depinjeng/application_context"
 
 module Depinjeng
-  # Your code goes here...
 end

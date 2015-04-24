@@ -6,10 +6,10 @@ require 'depinjeng/version'
 Gem::Specification.new do |spec|
   spec.name          = "depinjeng"
   spec.version       = Depinjeng::VERSION
-  spec.authors       = ["pivotal"]
-  spec.email         = ["pair@pivotallabs.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.authors       = ["ATHN"]
+  spec.email         = ["lew_and_david@athn.org"]
+  spec.description   = %q{Demonstrate DI in Ruby}
+  spec.summary       = %q{Demonstrate DI in Ruby}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "rspec", "~> 3.0"
 end
